@@ -49,12 +49,10 @@ sales_promotion_analysis/
 
 1. Clone the repository.
 2. Install dependencies: using requirement.txt
-
-   pip install -r requirements.txt
-
+      pip install -r requirements.txt
 4. unzip the data.zip folder.
 5. run the main.py file on command promot using 'python main.py'
-  python main.py
+     python main.py
 
 📤 Output
 
