@@ -14,8 +14,11 @@ This project analyzes the impact of promotions on item and store-level sales usi
 
 ## Project Structure
 
+- `analysis/data_loader.py`: load the data.
+- `analysis/clustering.py`: Perform the clustering.
+- `analysis/promo_effect.py`: Compute promo impact.
 - `analysis/visualizer.py`: Generates plots and statistical analyses for promotion effects.
-- `parse_date.py`: Utility for robust date parsing.
+- `utils/helpers.py`: Utility for robust date parsing.
 - `data/assignment4.1a.csv`: Sales data (example path).
 - `data/PromotionDates.csv`: Promotion periods (example path).
 - `outputs/`: Directory for generated plot images.
@@ -24,4 +27,6 @@ This project analyzes the impact of promotions on item and store-level sales usi
 ## Setup
 
 1. Clone the repository.
-2. Install dependencies:
+2. Install dependencies: using requirement.txt
+3. unzip the data.zip folder.
+4. run the main.py file on command promot using 'python main.py'
