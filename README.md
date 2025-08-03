@@ -12,7 +12,22 @@ This project analyzes the impact of promotions on item and store-level sales usi
 - Performs statistical tests (t-test) on sales increases
 - Generates a PowerPoint presentation of findings
 
-## Project Structure
+## 📁 Project Structure
+
+```bash
+sales_promotion_analysis/
+├── data/                  # Input CSV files
+├── outputs/               # Generated plots and PPT report
+├── analysis/              # Core logic for analysis
+│   ├── data_loader.py
+│   ├── clustering.py
+│   ├── promo_effect.py
+│   ├── visualizer.py
+│   └── presentation.py
+├── utils/
+│   └── helpers.py
+├── main.py                # Entry point
+└── requirements.txt
 
 - `analysis/data_loader.py`: load the data.
 - `analysis/clustering.py`: Perform the clustering.
