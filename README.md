@@ -28,6 +28,7 @@ sales_promotion_analysis/
 │   └── helpers.py
 ├── main.py                # Entry point
 └── requirements.txt
+```
 
 - `analysis/data_loader.py`: load the data.
 - `analysis/clustering.py`: Perform the clustering.
