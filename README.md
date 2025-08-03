@@ -1,16 +1,20 @@
-# Sales Promotion Analysis
+# 📊 Sales Promotion Analysis
 
-This project analyzes the impact of promotions on item and store-level sales using clustering, statistical testing, and visualization. It generates plots and a PowerPoint report summarizing the results.
+This project evaluates the impact of promotional events on product and store-level sales using clustering, statistical testing, and visual reporting. The workflow includes preprocessing, analysis, visualization, and generation of a comprehensive PowerPoint report.
 
-## Features
+---
 
-- Loads and preprocesses sales and promotion data
-- Flags sales records during promotion periods
-- Clusters items and stores by average weekly sales
-- Calculates sales increase due to promotions
-- Visualizes results with bar and box plots
-- Performs statistical tests (t-test) on sales increases
-- Generates a PowerPoint presentation of findings
+## ✨ Features
+
+- ✅ Load and preprocess sales and promotion datasets
+- 📅 Identify and flag promotion periods
+- 📊 Cluster items and stores using K-Means based on sales performance
+- 📈 Measure sales uplift during promotions
+- 📉 Generate bar charts and boxplots for deeper insights
+- 📐 Perform statistical t-tests to compare category-wise effects
+- 🖼️ Automatically generate a PowerPoint report with visuals and analysis
+
+---
 
 ## 📁 Project Structure
 
@@ -19,15 +23,16 @@ sales_promotion_analysis/
 ├── data/                  # Input CSV files
 ├── outputs/               # Generated plots and PPT report
 ├── analysis/              # Core logic for analysis
-│   ├── data_loader.py
-│   ├── clustering.py
-│   ├── promo_effect.py
-│   ├── visualizer.py
-│   └── presentation.py
+│   ├── data_loader.py         # Load & preprocess sales and promo data
+│   ├── clustering.py          # Cluster items and stores
+│   ├── promo_effect.py        # Compute promo impact
+│   ├── visualizer.py          # Plot and summarize results
+│   └── presentation.py        # Generate PowerPoint slides
 ├── utils/
-│   └── helpers.py
-├── main.py                # Entry point
-└── requirements.txt
+│   └── helpers.py             # Utility functions (e.g., date parsing)
+├── main.py                    # Entry point for analysis
+└── requirements.txt           # Required Python packages
+
 ```
 
 - `analysis/data_loader.py`: load the data.
